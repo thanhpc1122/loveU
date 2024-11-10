@@ -1,0 +1,30 @@
+.gom {
+    display: grid;
+    place-items: center; /* Căn giữa cả theo hàng và cột */
+    width: 300px; /* Điều chỉnh chiều rộng theo ý muốn */
+    height: 100px; /* Điều chỉnh chiều cao theo ý muốn */
+    margin: 0 auto; /* Căn giữa container theo chiều ngang của màn hình */
+  }
+  
+  .gom button {
+    display: inline-flex; /* Hiển thị các button trên cùng một dòng */
+    align-items: center; /* Căn giữa nội dung bên trong button theo chiều dọc */
+    justify-content: center; /* Căn giữa nội dung bên trong button theo chiều ngang */
+    padding: 15px 20px;
+    background-color: #05ad02;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin: 0 10px; /* Khoảng cách giữa các button */
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+#dy:active{
+    background-color: rgb(167, 35, 255);
+    color: rgb(255, 82, 82);
+    transition: all 0.4s ease; 
+}
